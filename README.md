@@ -4,13 +4,13 @@
 |-------------------------------------------------------------------------------|----------------|----------------|------------------------------|-----------------------|
 | Bitcoin Core                                                                  | &#9745;        | &#9745;&#9745; |  |                       |
 | Wasabi Wallet                                                                 | &#9745;&#9745; |                |      | &#9745;&#9745;        |
-| Hidden Wallet (not in production)                                             | &#9745;&#9745; | &#9745;        | &#9745;&#9745;&#9745;&#9745; | &#9745;               |
+| Hidden Wallet (not in production)                                             | &#9745;&#9745; | &#9745;        | | &#9745;               |
 | CoinBase                                                                      | &#9745;        |                |     | &#9745;&#9745;&#9745; |
 | Blockchain.info                                                               |                |                |                | &#9745;&#9745;&#9745; |
 | Blockchain.info + SharedCoin (not in production)                              | &#9745;        |                |                     | &#9745;&#9745;&#9745; |
 | Electrum (Desktop)                                                            |                | &#9745;        |             | &#9745;&#9745;        |
 | Electrum (Desktop) + Bitcoin Core with Electrum Server                        | &#9745;        | &#9745;&#9745; |      |                       |
-| Electrum (Desktop) + Bitcoin Core (through Electrum Personal Server)          | &#9745;        | &#9745;&#9745; | &#9745;&#9745;&#9745;        |                       |
+| Electrum (Desktop) + Bitcoin Core (through Electrum Personal Server)          | &#9745;        | &#9745;&#9745; |    |                       |
 | Trezor                                                                        |                |                |                     | &#9745;&#9745;        |
 | Trezor + Electrum (Desktop)                                                   |                | &#9745;        |             | &#9745;&#9745;        |
 | Trezor + Electrum (Desktop) + Bitcoin Core with Electrum Server               | &#9745;        | &#9745;&#9745; |        |                       |
@@ -18,7 +18,7 @@
 | Mycelium                                                                      |                |                |                    | &#9745;&#9745;&#9745; |
 | Mycelium + ShufflePuff (not in production)                                    | &#9745;        |                |                    | &#9745;&#9745;&#9745; |
 | JoinMarket with blockr.io API (not in production)                             | &#9745;        |                |                  | &#9745;&#9745;        |
-| JoinMarket + Bitcoin Core                                                     | &#9745;&#9745; | &#9745;&#9745; | &#9745;&#9745;&#9745;        |                       |
+| JoinMarket + Bitcoin Core                                                     | &#9745;&#9745; | &#9745;&#9745; |  |                       |
 | Dark Wallet                                                                   | &#9745;        |                |                    | &#9745;&#9745;        |
 | Bitcoin Knots                                                                 | &#9745;        | &#9745;&#9745; |         |                       |
 | Stratis: Breeze Wallet                                                        | &#9745;&#9745; | &#9745;        |                | &#9745;               |
