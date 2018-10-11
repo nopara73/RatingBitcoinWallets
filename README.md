@@ -2,28 +2,28 @@
 
 |                                                                               | Privacy        | Trust          | Security                     | Ease of Use           |
 |-------------------------------------------------------------------------------|----------------|----------------|------------------------------|-----------------------|
-| Bitcoin Core                                                                  | &#9745;        | &#9745;&#9745; | &#9745;&#9745;&#9745;&#9745; |                       |
-| Wasabi Wallet                                                                 | &#9745;&#9745; |                | &#9745;&#9745;&#9745;        | &#9745;&#9745;        |
+| Bitcoin Core                                                                  | &#9745;        | &#9745;&#9745; |  |                       |
+| Wasabi Wallet                                                                 | &#9745;&#9745; |                |      | &#9745;&#9745;        |
 | Hidden Wallet (not in production)                                             | &#9745;&#9745; | &#9745;        | &#9745;&#9745;&#9745;&#9745; | &#9745;               |
-| CoinBase                                                                      | &#9745;        |                | &#9745;&#10060;              | &#9745;&#9745;&#9745; |
-| Blockchain.info                                                               |                |                | &#9745;                      | &#9745;&#9745;&#9745; |
-| Blockchain.info + SharedCoin (not in production)                              | &#9745;        |                | &#9745;                      | &#9745;&#9745;&#9745; |
-| Electrum (Desktop)                                                            |                | &#9745;        | &#9745;&#9745;               | &#9745;&#9745;        |
-| Electrum (Desktop) + Bitcoin Core with Electrum Server                        | &#9745;        | &#9745;&#9745; | &#9745;&#9745;&#9745;        |                       |
+| CoinBase                                                                      | &#9745;        |                |     | &#9745;&#9745;&#9745; |
+| Blockchain.info                                                               |                |                |                | &#9745;&#9745;&#9745; |
+| Blockchain.info + SharedCoin (not in production)                              | &#9745;        |                |                     | &#9745;&#9745;&#9745; |
+| Electrum (Desktop)                                                            |                | &#9745;        |             | &#9745;&#9745;        |
+| Electrum (Desktop) + Bitcoin Core with Electrum Server                        | &#9745;        | &#9745;&#9745; |      |                       |
 | Electrum (Desktop) + Bitcoin Core (through Electrum Personal Server)          | &#9745;        | &#9745;&#9745; | &#9745;&#9745;&#9745;        |                       |
-| Trezor                                                                        |                |                | &#9745;                      | &#9745;&#9745;        |
-| Trezor + Electrum (Desktop)                                                   |                | &#9745;        | &#9745;&#9745;               | &#9745;&#9745;        |
-| Trezor + Electrum (Desktop) + Bitcoin Core with Electrum Server               | &#9745;        | &#9745;&#9745; | &#9745;&#9745;&#9745;        |                       |
-| Trezor + Electrum (Desktop) + Bitcoin Core (through Electrum Personal Server) | &#9745;        | &#9745;&#9745; | &#9745;&#9745;&#9745;        |                       |
-| Mycelium                                                                      |                |                | &#9745;                      | &#9745;&#9745;&#9745; |
-| Mycelium + ShufflePuff (not in production)                                    | &#9745;        |                | &#9745;                      | &#9745;&#9745;&#9745; |
-| JoinMarket with blockr.io API (not in production)                             | &#9745;        |                | &#9745;                      | &#9745;&#9745;        |
+| Trezor                                                                        |                |                |                     | &#9745;&#9745;        |
+| Trezor + Electrum (Desktop)                                                   |                | &#9745;        |             | &#9745;&#9745;        |
+| Trezor + Electrum (Desktop) + Bitcoin Core with Electrum Server               | &#9745;        | &#9745;&#9745; |        |                       |
+| Trezor + Electrum (Desktop) + Bitcoin Core (through Electrum Personal Server) | &#9745;        | &#9745;&#9745; |        |                       |
+| Mycelium                                                                      |                |                |                    | &#9745;&#9745;&#9745; |
+| Mycelium + ShufflePuff (not in production)                                    | &#9745;        |                |                    | &#9745;&#9745;&#9745; |
+| JoinMarket with blockr.io API (not in production)                             | &#9745;        |                |                  | &#9745;&#9745;        |
 | JoinMarket + Bitcoin Core                                                     | &#9745;&#9745; | &#9745;&#9745; | &#9745;&#9745;&#9745;        |                       |
-| Dark Wallet                                                                   | &#9745;        |                | &#9745;                      | &#9745;&#9745;        |
-| Bitcoin Knots                                                                 | &#9745;        | &#9745;&#9745; | &#9745;&#9745;&#9745;        |                       |
-| Stratis: Breeze Wallet                                                        | &#9745;&#9745; | &#9745;        | &#9745;&#9745;               | &#9745;               |
-| Armory                                                                        | &#9745;        | &#9745;&#9745; | &#9745;&#9745;&#9745;        |                       |
-| Bread Wallet                                                                  |                | &#9745;        | &#9745;&#9745;               | &#9745;&#9745;        |
+| Dark Wallet                                                                   | &#9745;        |                |                    | &#9745;&#9745;        |
+| Bitcoin Knots                                                                 | &#9745;        | &#9745;&#9745; |         |                       |
+| Stratis: Breeze Wallet                                                        | &#9745;&#9745; | &#9745;        |                | &#9745;               |
+| Armory                                                                        | &#9745;        | &#9745;&#9745; |         |                       |
+| Bread Wallet                                                                  |                | &#9745;        |           | &#9745;&#9745;        |
 
 If any decision I made here is not clear or you find debatable, please open an issue. 
 
