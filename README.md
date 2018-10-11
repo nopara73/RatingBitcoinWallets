@@ -1,34 +1,74 @@
 # Rating Bitcoin Wallets
 
+|                                                                               | Privacy        | Trust          | Security                     | Ease of Use           |
+|-------------------------------------------------------------------------------|----------------|----------------|------------------------------|-----------------------|
+| Bitcoin Core                                                                  | &#9745;        | &#9745;&#9745; | &#9745;&#9745;&#9745;&#9745; |                       |
+| Wasabi Wallet                                                                 | &#9745;&#9745; |                | &#9745;&#9745;&#9745;        | &#9745;&#9745;        |
+| Hidden Wallet (not in production)                                             | &#9745;&#9745; | &#9745;        | &#9745;&#9745;&#9745;&#9745; | &#9745;               |
+| CoinBase                                                                      | &#9745;        |                | &#9745;&#10060;              | &#9745;&#9745;&#9745; |
+| Blockchain.info                                                               |                |                | &#9745;                      | &#9745;&#9745;&#9745; |
+| Blockchain.info + SharedCoin (not in production)                              | &#9745;        |                | &#9745;                      | &#9745;&#9745;&#9745; |
+| Electrum (Desktop)                                                            |                | &#9745;        | &#9745;&#9745;               | &#9745;&#9745;        |
+| Electrum (Desktop) + Bitcoin Core with Electrum Server                        | &#9745;        | &#9745;&#9745; | &#9745;&#9745;&#9745;        |                       |
+| Electrum (Desktop) + Bitcoin Core (through Electrum Personal Server)          | &#9745;        | &#9745;&#9745; | &#9745;&#9745;&#9745;        |                       |
+| Trezor                                                                        |                |                | &#9745;                      | &#9745;&#9745;        |
+| Trezor + Electrum (Desktop)                                                   |                | &#9745;        | &#9745;&#9745;               | &#9745;&#9745;        |
+| Trezor + Electrum (Desktop) + Bitcoin Core with Electrum Server               | &#9745;        | &#9745;&#9745; | &#9745;&#9745;&#9745;        |                       |
+| Trezor + Electrum (Desktop) + Bitcoin Core (through Electrum Personal Server) | &#9745;        | &#9745;&#9745; | &#9745;&#9745;&#9745;        |                       |
+| Mycelium                                                                      |                |                | &#9745;                      | &#9745;&#9745;&#9745; |
+| Mycelium + ShufflePuff (not in production)                                    | &#9745;        |                | &#9745;                      | &#9745;&#9745;&#9745; |
+| JoinMarket with blockr.io API (not in production)                             | &#9745;        |                | &#9745;                      | &#9745;&#9745;        |
+| JoinMarket + Bitcoin Core                                                     | &#9745;&#9745; | &#9745;&#9745; | &#9745;&#9745;&#9745;        |                       |
+| Dark Wallet                                                                   | &#9745;        |                | &#9745;                      | &#9745;&#9745;        |
+| Bitcoin Knots                                                                 | &#9745;        | &#9745;&#9745; | &#9745;&#9745;&#9745;        |                       |
+| Stratis: Breeze Wallet                                                        | &#9745;&#9745; | &#9745;        | &#9745;&#9745;               | &#9745;               |
+| Armory                                                                        | &#9745;        | &#9745;&#9745; | &#9745;&#9745;&#9745;        |                       |
+| Bread Wallet                                                                  |                | &#9745;        | &#9745;&#9745;               | &#9745;&#9745;        |
+
 If any decision I made here is not clear or you find debatable, please open an issue. 
 
 This writeup is intended to be an improvement on [Jonas Schnelli's](https://github.com/jonasschnelli) Bitcoin wallet triangle, [presented](https://www.youtube.com/watch?v=XORDEX-RrAI&feature=youtu.be&t=3440) at the Building on Bitcoin 2018 conference.
 
-Jonas rated the wallets in three main categories: privacy, trust and security. I add ease of use to this.
+Jonas rated the wallets in three main categories: privacy, trust and security. I expand on these with sub categories, define requirements and I add a new, ease of use category to this.
 
-# Privacy
+Beware that, the properties of privacy, trust and security are similar in a sense that, they fail where they are the weakest. This notion limits the reliability of this rating system.
 
-## Blockchain Level
+# I. Privacy
 
-Can the wallet sufficiently withstand blockchain analysis? 
+## I/a. Blockchain Level Privacy
 
-## Network Level
+Can the wallet sufficiently withstand blockchain analysis? (&#9745;/ )
 
-Does the wallet get to know the current state of the blockchain without leaking relevant information to any third party?
+## I/b. Network Level Privacy
 
-# Trust
+Does the wallet get to know the current state of the blockchain without leaking relevant information to third parties? (&#9745;/ )
 
-Full Nodes - SPV nodes - Centralized V
+# II. Trust
 
-# Security
+Full Nodes (&#9745;&#9745;) / SPV nodes (&#9745;) / Centrally Validating Nodes ( )
 
-# User Experience (UX)
+# III. Security
 
+## III/a. Privacy (Hiding)
 
+Hiding (&#9745;/ ) could be another subcategory of Privacy, however it is less relevant from a privacy point of view and more relevant from a security point of view. The criteria for Hiding is, if the wallet runs on a general purpose environment or not. Currently all wallets are such wallets, except hardware wallets.
 
+## III/b. Trust
 
+This subcategory is the same as the Trust main category. This is necessary to include into the Security, because getting tricked by third parties is a direct security risk. Thus we duplicate it, so to denote the interconnectedness of the properties. (&#9745;&#9745; / &#9745; / ) 
 
+### III/c. Key Safety
 
+Is spending from the wallet happens in a...
+- cold environment (&#9745;&#9745;&#9745;)
+- desktop (&#9745;&#9745;)
+- mobile (&#9745;)
+- browser ( )
+- private keys are not controlled by the user (&#10060;)
 
+# Ease of Use
 
-coinbase, blockchain.info, blockchain.info + sharedcoin electrum, bitcoin core, hidden wallet, electrum + bitcoin core (electrum personal server), trezor, mycelium, myceliom + shufflepuff, dark wallet, joinmarket + core, joinmarket + blockr.io
+- Using the wallet is instant and doesn't require initial sync or setup. (&#9745;&#9745;&#9745;)
+- Using the wallet is instant, but a bit of initial sync is required or setup. (&#9745;&#9745;)
+- Using the wallet requires sync every time when opening it and a bit of initial sync or setup required (&#9745;)
+- Using the wallet requires sync every time when opening it and a considerable amount of initial sync or setup is required ( )
