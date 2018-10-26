@@ -25,6 +25,8 @@
 | Armory                                                                        | &#9745;        | &#9745;&#9745; | &#9745;&#9745;&#9745;&#9745;&#9745;        |                       |
 | Bread Wallet                                                                  |                | &#9745;        | &#9745;&#9745;&#9745;&#9745;               | &#9745;&#9745;        |
 | Paper Wallet (generated offline, spent by imported into a full node)          | &#9745;        | &#9745;&#9745; | &#9745;&#9745;&#9745;&#9745;&#9745;&#9745; |                       |
+| BitSense
+| Fully Noded
 
 If any decision I made here is not clear or you find debatable, please open an issue. 
 
