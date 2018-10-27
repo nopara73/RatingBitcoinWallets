@@ -17,6 +17,8 @@
 | Trezor + Electrum (Desktop) + Bitcoin Core (through Electrum Personal Server) | &#9745; | &#9745;&#9745; | &#9745;&#9745;&#9745;&#9745;&#9745; |  |
 | Mycelium |  |  | &#9745;&#9745; | &#9745;&#9745;&#9745; |
 | Mycelium + ShufflePuff (not in production) | &#9745; |  | &#9745;&#9745; | &#9745;&#9745;&#9745; |
+| BitSense |  |  | &#9745;&#9745; | &#9745;&#9745;&#9745; |
+| Fully Noded | &#9745; | &#9745;&#9745; | &#9745;&#9745;&#9745;&#9745; |  |
 | JoinMarket with blockr.io API (not in production) | &#9745; |  | &#9745;&#9745;&#9745; | &#9745;&#9745; |
 | JoinMarket + Bitcoin Core | &#9745;&#9745; | &#9745;&#9745; | &#9745;&#9745;&#9745;&#9745;&#9745; |  |
 | Dark Wallet | &#9745; |  | &#9745; | &#9745;&#9745; |
